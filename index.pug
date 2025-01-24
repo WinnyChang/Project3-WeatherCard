@@ -1,0 +1,102 @@
+.card
+    label
+        input(type='checkbox' id='viewchart')
+        .top
+            .moon
+            .cloud
+                .rain
+                .rain.rain2
+                .rain.rain3
+            svg.chart
+                circle(cx=-16 cy=14*7 r=2)
+                // 56°. cy = (70-t)*7
+                circle(cx=38 cy=12*7 r=2)
+                text(x=38 y=84) 58°
+                circle(cx=92 cy=7*7 r=2)
+                text(x=92 y=49) 63°
+                circle(cx=146 cy=10*7 r=2)
+                text(x=146 y=70) 60°
+                circle(cx=200 cy=10*7 r=2)
+                text(x=200 y=70) 60°
+                circle(cx=254 cy=7*7 r=2)
+                text(x=254 y=49) 63°
+                circle(cx=308 cy=9*7 r=2)
+                text(x=308 y=63) 61°
+                circle(cx=362 cy=13*7 r=2)
+                text(x=362 y=91) 57°
+                circle(cx=416 cy=12*7 r=2)
+                // 58°
+                polyline(points = "-16,98 38,84 92,49 146,70 200,70 254,49 308,63 362,91 416,84")
+            .text_area
+                .temperature 42°F
+                .info
+                    .location Roseville, CA
+                    .time Sunday 9:00 PM
+        .bottom
+            .down-arrow
+            .dayweather
+                h3 Sun
+                // Mostly Sunny
+                svg(viewbox='-66 -27 100 100')
+                    line.rain(x1=-25 y1=15 x2=-25 y2=30)
+                    line.rain(x1=-12 y1=10 x2=-12 y2=25)
+                    line.rain(x1=0 y1=20 x2=0 y2=40)
+                    circle.cloud(cx=0 cy=25 r=20)
+                    circle.cloud(cx=-15 cy=25 r=20)
+                    circle.cloud(cx=-30 cy=25 r=20)
+                    circle.cloud(cx=-25 cy=10 r=15)
+                    circle.cloud(cx=-7 cy=15 r=15)
+            .dayweather
+                h3 Mon
+                // Sunny
+                svg(viewbox='-50 -50 100 100')
+                    circle.sun(cx=0 cy=0 r=20)
+            .dayweather
+                h3 Tue
+                // Sunny
+                svg(viewbox='-50 -50 100 100')
+                    circle.sun(cx=0 cy=0 r=20)
+            .dayweather
+                h3 Wed
+                // Sunny
+                svg(viewbox='-50 -50 100 100')
+                    circle.sun(cx=0 cy=0 r=20)
+            .dayweather
+                h3 Thu
+                // Sunny
+                svg(viewbox='-50 -50 100 100')
+                    circle.sun(cx=0 cy=0 r=20)
+            .dayweather
+                h3 Fri
+                // Partly Cloudy
+                svg(viewbox='-50 -50 100 100')
+                    circle.sun(cx=0 cy=0 r=20)
+                    // Cloud border
+                    circle.cloud(cx=0 cy=25 r=20 stroke="#f3f3f3" stroke-width="12")
+                    circle.cloud(cx=-15 cy=25 r=20 stroke="#f3f3f3" stroke-width="12")
+                    circle.cloud(cx=-30 cy=25 r=20 stroke="#f3f3f3" stroke-width="12")
+                    circle.cloud(cx=-25 cy=10 r=15 stroke="#f3f3f3" stroke-width="12")
+                    circle.cloud(cx=-7 cy=15 r=15 stroke="#f3f3f3" stroke-width="12")
+                    // Top layer
+                    circle.cloud(cx=0 cy=25 r=20)
+                    circle.cloud(cx=-15 cy=25 r=20)
+                    circle.cloud(cx=-30 cy=25 r=20)
+                    circle.cloud(cx=-25 cy=10 r=15)
+                    circle.cloud(cx=-7 cy=15 r=15)
+            .dayweather
+                h3 Sat
+                // Mostly Sunny
+                svg(viewbox='-50 -50 100 100')
+                    circle.sun(cx=0 cy=0 r=20)
+                    // Cloud border
+                    circle.cloud(cx=0 cy=25 r=10 stroke="#f3f3f3" stroke-width="5")
+                    circle.cloud(cx=-10 cy=25 r=10 stroke="#f3f3f3" stroke-width="5")
+                    circle.cloud(cx=-20 cy=25 r=10 stroke="#f3f3f3" stroke-width="5")
+                    circle.cloud(cx=-15 cy=10 r=7.5 stroke="#f3f3f3" stroke-width="5")
+                    circle.cloud(cx=-3 cy=15 r=7.5 stroke="#f3f3f3" stroke-width="5")
+                    // Top layer
+                    circle.cloud(cx=-2 cy=25 r=10)
+                    circle.cloud(cx=-12 cy=25 r=10)
+                    circle.cloud(cx=-22 cy=25 r=10)
+                    circle.cloud(cx=-17 cy=12 r=7.5)
+                    circle.cloud(cx=-7 cy=18 r=7.5)
