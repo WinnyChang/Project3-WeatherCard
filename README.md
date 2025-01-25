@@ -3,7 +3,7 @@
 ## **Overview**
 This project showcases an animated weather card interface built with **Pug** and **Sass**. All weather icons are constructed using basic SVG shapes, featuring smooth animations and interactive effects.
 
-![Demo GIF](screenshots/Project3_Demo Clip.gif)
+![Demo GIF](https://github.com/WinnyChang/Project3-WeatherCard/blob/main/screenshots/Project3_Demo%20Clip.gif)
 
 **Live Demo:** [View on CodePen](https://codepen.io/WinnyChang-Yun/pen/JoPepXQ)
 
